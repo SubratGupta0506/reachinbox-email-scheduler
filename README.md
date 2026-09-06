@@ -2,6 +2,14 @@
 
 A full-stack email scheduling system built as a hiring assignment for ReachInbox.
 
+> **Deployment Note**
+>
+> The frontend of this project is deployed and available at the URL below for evaluation and UI demonstration.
+>
+> **Frontend Deployment:** YOUR_VERCEL_URL
+>
+> The backend services are currently configured to run locally. The complete application requires backend infrastructure including PostgreSQL, Redis/BullMQ, Elasticsearch, and SMTP services, so the deployed URL is intended specifically for frontend/UI evaluation. The full end-to-end functionality can be demonstrated using the local setup described below.
+
 The application supports authenticated email scheduling, background processing with BullMQ, Redis-backed rate limiting, safe rescheduling, Slack notifications, Elasticsearch search, CSV/TXT recipient uploads, and persistent jobs across backend restarts.
 
 ## Tech Stack
